@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#7238f2",
+    "list": [
+      {
+        "text": "哄睡",
+        "iconPath": "assets/tabBar/index.png",
+        "selectedIconPath": "assets/tabBar/index-select.png",
+        "pagePath": "pages/main/main"
+      },
+      {
+        "text": "我的",
+        "iconPath": "assets/tabBar/user.png",
+        "selectedIconPath": "assets/tabBar/user-select.png",
+        "pagePath": "pages/index/index"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

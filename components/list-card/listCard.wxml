@@ -1,0 +1,12 @@
+<view class="card">
+  <view class="title">
+    <image src="../../assets/jianzhang.svg"></image>
+    <text>舰长-俞界1_01.mp3</text>
+  </view>
+  <view class="card-cover">
+    <image src="../../assets/star.svg" style="width: 400rpx;height: 400rpx;"></image>
+  </view>
+  <view class="block-live">
+    <audioPlay></audioPlay>
+  </view>
+</view>

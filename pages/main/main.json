@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "listCard": "../../components/list-card/listCard"
+  },
+  "navigationBarTitleText": "睡个好觉"
+}

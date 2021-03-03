@@ -1,0 +1,7 @@
+/* pages/main/main.wxss */
+.list-page {
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 32rpx 24rpx;
+  background-color: #c7d9fd;
+}

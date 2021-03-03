@@ -1,0 +1,15 @@
+<view class="user-container">
+  <view class="info" wx:if="{{isLogin}}">
+    <view class="name">
+      <view class="name-main">SumCuber</view>
+      <view class="user-iden">大航海-舰长</view>
+    </view>
+    <view class="avatar">
+      <image style="width: 200rpx;height: 200rpx;" src="https://q-independent.aixuexi.com/B:1029:K/1612713600/4ae45153ff764b6e9fc7849d6b434f69.jpg"></image>
+    </view>
+  </view>
+  <view class="login" wx:else>
+    <van-button type="default">登录</van-button>
+  </view>
+  <view class="user-menu"></view>
+</view>

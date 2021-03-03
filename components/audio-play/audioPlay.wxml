@@ -1,0 +1,13 @@
+<!--页面代码-->
+<view class='trip_audio'>
+  <slider style="width:582rpx;margin-left:50rpx;" bindchange="changeValue" value='{{currentNum/durationNum}}' backgroundColor='#EDEDED' selected-color="#4F68FA" block-size="20"></slider>
+  <view class='time'>
+    <view class='time_left'>{{current}}</view>
+    <view class='time_right'>{{duration}}</view>
+  </view>
+  <view class='trip_btn'>
+    <image src='../../assets/back.svg' bindtap='back'></image>
+    <image src='../../assets/play.svg' bindtap='play'></image>
+    <image src='../../assets/forward.svg' bindtap='go'></image>
+  </view>
+</view>
